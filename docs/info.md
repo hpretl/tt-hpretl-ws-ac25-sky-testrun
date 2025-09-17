@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+When applying a `clk` signal (ideally around 10kHz) a snaking pattern is displayed on the connected 7-segment LED display. The circuit requires a few clock cycles to reset itself into a proper state.
 
 ## How to test
 
-Explain how to use your project
+See above. Apply a clock signal and then it just does its job.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+7-segment LED display and a clock generator with around 10kHz frequency.
