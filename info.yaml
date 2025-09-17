@@ -1,16 +1,15 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     442328534389076993
+  title:        "Amazing snake"
+  author:       "Harald Pretl"
+  discord:      "hpretl"
+  description:  "This simple project shows a snake pattern on the 7-segment LED. That's it."
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     10000
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
-
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
@@ -26,14 +25,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "LED segment 0"
+  uo[1]: "LED segment 1"
+  uo[2]: "LED segment 2"
+  uo[3]: "LED segment 3"
+  uo[4]: "LED segment 4"
+  uo[5]: "LED segment 5"
+  uo[6]: "LED segment 7"
+  uo[7]: "LED dot"
 
   # Bidirectional pins
   uio[0]: ""
